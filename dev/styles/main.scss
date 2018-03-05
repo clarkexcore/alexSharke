@@ -1,6 +1,60 @@
 @import 'setup';
 
-.container {
-	max-width: 900px;
-	margin: 0 auto;
+body{
+	font-size: 14px;
+}
+
+// Header Styles
+
+header{
+	background-image: url('../../images/background.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	.header-overlay{
+		padding: 0 25px;
+		text-align: center;
+		background-color: rgba(0,0,0,0.5);
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	h1{
+		font-size: 4rem;
+		.header-title__uppercase{
+			text-transform: uppercase;
+		}
+	}
+	img{
+		width: 100%;
+		max-width: 600px;
+	}
+	a{
+		color: white;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		li{
+			margin-right: 25px;	
+		}
+		li:last-of-type{
+			margin-right: 0;
+		}
+	}
+}
+
+.society6-logo{
+	width: 3rem;
+	height: 3rem;
+	img{
+		width: 100%;
+	}
 }
