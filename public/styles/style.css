@@ -181,9 +181,12 @@ header {
         -ms-flex-align: center;
             align-items: center; }
     header ul li {
-      margin-right: 25px; }
+      margin-right: 25px;
+      border-bottom: 3px solid transparent; }
     header ul li:last-of-type {
       margin-right: 0; }
+    header ul li:hover {
+      border-bottom: 3px solid white; }
 
 .society6-logo {
   width: 3rem;

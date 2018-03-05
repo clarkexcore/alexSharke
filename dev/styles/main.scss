@@ -43,10 +43,14 @@ header{
 		justify-content: center;
 		align-items: center;
 		li{
-			margin-right: 25px;	
+			margin-right: 25px;
+			border-bottom: 3px solid transparent;	
 		}
 		li:last-of-type{
 			margin-right: 0;
+		}
+		li:hover{
+			border-bottom: 3px solid white;
 		}
 	}
 }
