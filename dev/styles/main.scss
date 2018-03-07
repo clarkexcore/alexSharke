@@ -23,7 +23,7 @@ header{
 		align-items: center;
 	}
 	h1{
-		font-size: 4rem;
+		font-size: 6rem;
 		.header-title__uppercase{
 			text-transform: uppercase;
 		}
@@ -60,5 +60,17 @@ header{
 	height: 3rem;
 	img{
 		width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	header h1{
+		font-size: 4rem;
+	}
+}
+
+@media (max-width: 480px){
+	header h1{
+		font-size: 3rem;
 	}
 }
